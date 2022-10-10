@@ -23,7 +23,7 @@ export default function App() {
       "Design consists of designing everything from logos, posters, infographics, banners, print design, illustrations, UI/UX design for websites and apps, to animations and interactions",
     ],
     [
-      "Groud Discussion",
+      "Group Discussion",
       "Every decision that is made by any institution/individual is made by considering various possibilities, and it is important for one to be able to analyse a topic/situation effectively to form logical decisions.",
     ],
     [
@@ -49,6 +49,10 @@ export default function App() {
     [
       "Hardware",
       "Ever wondered how your computer works? Or ever tried to fix an issue with your hardware? Competitive hardware generally deals with troubleshooting computer hardware and going in-depth about its concepts.",
+    ],
+    [
+      "Space Tech",
+      "Space technology is technology for use in outer space, in travel or other activities beyond Earth's atmosphere, for purposes such as spaceflight, space exploration, and Earth observation.",
     ],
   ];
 
