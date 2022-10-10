@@ -3,12 +3,12 @@ import styles from "../styles/pages/contact.module.scss";
 
 export default function App() {
   const contactList = [
-    ["Mr. John Doe", "Club In-charge", "mrjohn@espice.co"],
+    ["Mrs. Joan Doe", "Club In-charge", "doejoan@espice.co"],
     ["eSpice", "Official", "hello@espice.co"],
-    ["Jhonny Doe", "President", "president@espice.co"],
-    ["Jhonny Doe", "President", "president@espice.co"],
-    ["Jhonny Doe", "President", "president@espice.co"],
-    ["Jhonny Doe", "President", "president@espice.co"],
+    ["President", "Official", "president@espice.co"],
+    ["John Doe", "President", "johndoe@espice.co"],
+    ["Bella Joe", "Vice President", "doebella@espice.co"],
+    ["Kale Doe", "Programming Head", "doekale@espice.co"],
   ];
 
   return (

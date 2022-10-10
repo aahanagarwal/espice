@@ -71,3 +71,50 @@
     }
   }
 }
+
+.popup {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.1s ease-in;
+
+  .overlay {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 50%);
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+    position: fixed;
+    top: 20vh;
+    left: 30vw;
+    border-radius: 20px;
+    z-index: 100;
+    background-color: #fefefe;
+    padding: 50px;
+
+    h2 {
+      color: var(--secondary);
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: var(--primary);
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}

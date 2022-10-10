@@ -3,15 +3,14 @@ import styles from "../styles/pages/members.module.scss";
 
 export default function App() {
   const teachers = [
-    ["John Doe", "Club In-charge"],
-    ["John Doe", "Teacher"],
-    ["John Doe", "Teacher"],
+    ["Mrs. Joan Doe", "Club In-charge"],
+    ["Mr. John Doe", "HOD, Computer Science"],
+    ["Mrs. Joanna Doe", "IT Teacher"],
   ];
   const support = [
-    ["John Doe", "IT Staff"],
-    ["John Doe", "IT Staff"],
-    ["John Doe", "Photographer"],
-    ["John Doe", "Hardware Crew"],
+    ["Mr. John Doe", "IT Staff"],
+    ["Mr. Kale Doe", "Photographer"],
+    ["Mr. Ray Doe", "Hardware"],
   ];
 
   return (
@@ -40,7 +39,7 @@ export default function App() {
           {support.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>

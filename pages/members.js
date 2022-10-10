@@ -5,7 +5,7 @@ export default function App() {
   const coreMembers = [
     ["John Doe", "President"],
     ["John Doe", "Vice President"],
-    ["John Doe", "Junior President"],
+    ["John Doe", "Director"],
     ["John Doe", "Development Head"],
     ["John Doe", "Design Head"],
     ["John Doe", "Creative Head"],
@@ -51,7 +51,7 @@ export default function App() {
           {coreMembers.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
@@ -64,7 +64,7 @@ export default function App() {
           {twelthMembers.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
@@ -77,7 +77,7 @@ export default function App() {
           {eleventhMembers.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
@@ -90,7 +90,7 @@ export default function App() {
           {tenthMembers.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
@@ -103,7 +103,7 @@ export default function App() {
           {ninethMembers.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>

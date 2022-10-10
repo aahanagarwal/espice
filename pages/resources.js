@@ -70,17 +70,31 @@ export default function App() {
               <div className={styles.resourceList__item__content}>
                 <h3>{field[0]}</h3>
                 <p>{field[1]}</p>
-                <button>READ MORE</button>
+                <button
+                  onClick={() => {
+                    setActiveResource(field);
+                    document.querySelector("#popup").style.visibility =
+                      "initial";
+                    document.querySelector("#popup").style.opacity = "1";
+                  }}>
+                  READ MORE
+                </button>
               </div>
             </div>
           );
         })}
       </div>
 
-      <div className={styles.popup}>
-        <div className={styles.overlay}></div>
+      <div className={styles.popup} id="popup">
+        <div
+          className={styles.overlay}
+          onClick={() => {
+            document.querySelector("#popup").style.visibility = "hidden";
+            document.querySelector("#popup").style.opacity = "0";
+          }}></div>
         <div className={styles.popup__container}>
-          <p>{activeResource}</p>
+          <h2>{activeResource[0]}</h2>
+          <p>{activeResource[1]}</p>
         </div>
       </div>
     </Layout>

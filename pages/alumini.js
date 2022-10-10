@@ -3,16 +3,28 @@ import styles from "../styles/pages/members.module.scss";
 
 export default function App() {
   const seventeentotwentytwo = [
-    ["John Doe", "Class of '21"],
-    ["John Doe", "Class of '20"],
-    ["John Doe", "Class of '19"],
-    ["John Doe", "Class of '19"],
+    ["John Doe", "Class of 2022"],
+    ["John Doe", "Class of 2022"],
+    ["John Doe", "Class of 2022"],
+    ["John Doe", "Class of 2022"],
+    ["John Doe", "Class of 2020"],
+    ["John Doe", "Class of 2020"],
+    ["John Doe", "Class of 2019"],
+    ["John Doe", "Class of 2019"],
+    ["John Doe", "Class of 2019"],
+    ["John Doe", "Class of 2018"],
   ];
   const twelvetoseventeen = [
-    ["John Doe", "Class of '17"],
-    ["John Doe", "Class of '15"],
-    ["John Doe", "Class of '15"],
-    ["John Doe", "Class of '12"],
+    ["John Doe", "Class of 2017"],
+    ["John Doe", "Class of 2017"],
+    ["John Doe", "Class of 2017"],
+    ["John Doe", "Class of 2017"],
+    ["John Doe", "Class of 2017"],
+    ["John Doe", "Class of 2016"],
+    ["John Doe", "Class of 2015"],
+    ["John Doe", "Class of 2015"],
+    ["John Doe", "Class of 2015"],
+    ["John Doe", "Class of 2014"],
   ];
 
   return (
@@ -31,7 +43,7 @@ export default function App() {
           {seventeentotwentytwo.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
@@ -44,7 +56,7 @@ export default function App() {
           {twelvetoseventeen.map((member) => {
             return (
               <div className={styles.membersList__item}>
-                <img src="https://wallpapercave.com/wp/wp1990689.jpg" />
+                <img src="https://cdn.dribbble.com/users/3076374/screenshots/11136576/dribbble_4x.png" />
                 <h2>{member[0]}</h2>
                 <h3>{member[1]}</h3>
               </div>
