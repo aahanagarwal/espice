@@ -29,7 +29,7 @@ const Header = () => {
           location.href = "/";
         }}
       />
-      <a href="/alumini">Alumini</a>
+      <a href="/alumni">Alumni</a>
       <a href="/faculty">Faculty</a>
       <a href="/contact">Contact</a>
     </div>

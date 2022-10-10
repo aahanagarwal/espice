@@ -30,7 +30,7 @@ export default function App() {
   return (
     <Layout>
       <div className={styles.heroDiv}>
-        <h1>Alumini</h1>
+        <h1>Alumni</h1>
         <p>
           These are the warriors who left the arena but never dropped their
           weapons.
