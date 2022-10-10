@@ -1,7 +1,10 @@
+import { useState } from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/pages/resources.module.scss";
 
 export default function App() {
+  const [activeResource, setActiveResource] = useState("");
+
   const fields = [
     [
       "Game Development",
@@ -72,6 +75,13 @@ export default function App() {
             </div>
           );
         })}
+      </div>
+
+      <div className={styles.popup}>
+        <div className={styles.overlay}></div>
+        <div className={styles.popup__container}>
+          <p>{activeResource}</p>
+        </div>
       </div>
     </Layout>
   );
