@@ -1,0 +1,46 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  & img {
+    width: 60vw;
+  }
+
+  & h1 {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--secondary);
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 50px;
+  margin-bottom: 120px;
+
+  & div {
+    width: 50%;
+    & h2 {
+      color: var(--primary);
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+
+    & p {
+      color: var(--secondary);
+      font-size: 20px;
+    }
+  }
+
+  & img {
+    width: 30%;
+    border-radius: 10px;
+  }
+}

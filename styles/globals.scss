@@ -1,0 +1,45 @@
+/* Import */
+@import "./colors";
+
+/* Normalize */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Inter";
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body {
+  box-sizing: border-box;
+  background: #fefefe;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent var(--primary);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 0;
+  border: none;
+}
